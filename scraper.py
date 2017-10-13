@@ -48,13 +48,14 @@ for form in br.forms():
 
     
     
-'''    
-browser = mechanize.Browser()
-browser.open(YOUR URL)
-browser.select_form(nr = 0)
-browser.form['username'] = USERNAME
-browser.form['password'] = PASSWORD
-browser.submit()'''
+
+br.select_form(nr = 0)
+br.form['prettybeautifulbutterfly@yahoo.com'] = USERNAME
+br.form['4Peapod'] = PASSWORD
+browser.submit()
+print form
+
+
 '''formcount=0
 for frm in br.forms():  
     if frm.attrs[class] == "search-form":
