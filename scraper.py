@@ -68,6 +68,8 @@ for frm in br.forms():
 
         br.submit()'''
 
+
+'''
 #br.select_form(nr=0)
 #print br.form
 br.form = list(br.forms())[0] 
@@ -81,7 +83,7 @@ response = br.submit()
 html = response.read()
 print html
 root = lxml.html.fromstring(html)
-scrape_table(root)
+scrape_table(root)'''
 
     
     
