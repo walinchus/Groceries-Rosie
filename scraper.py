@@ -51,7 +51,7 @@ for form in br.forms():
 
 br.select_form(nr = 0)
 br.form['prettybeautifulbutterfly@yahoo.com'] = USERNAME
-br.form['4Peapod'] = PASSWORD
+br.form['XXXXXXX'] = PASSWORD
 browser.submit()
 print form
 
